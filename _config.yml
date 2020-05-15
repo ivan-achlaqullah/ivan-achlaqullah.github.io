@@ -24,6 +24,8 @@ github_username: ivan_achlaqullah
 name: "Ivan Achlaqullah"
 minimal_mistakes_skin: dark
 search: true
+logo: /assets/images/logo-ivan.png
+og_image: /assets/images/logo-ivan.png
 
 # Build settings
 markdown: kramdown

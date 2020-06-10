@@ -93,6 +93,12 @@ comments:
   disqus:
     shortname: "catatan-ivan-achlaqullah"
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-169200771-1"
+    anonymize_ip: false
+
 defaults:
   # _posts
   - scope:

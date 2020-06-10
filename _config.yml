@@ -88,6 +88,11 @@ footer:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/ivan-achlaqullah"
 
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "catatan-ivan-achlaqullah"
+
 defaults:
   # _posts
   - scope:

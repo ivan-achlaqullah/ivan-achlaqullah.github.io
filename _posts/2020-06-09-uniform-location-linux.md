@@ -3,6 +3,7 @@ title: "Ketika OpenGL Lebih Lemot di Linux"
 categories:
   - Blog
 tags:
+  - buri engine
   - opengl
   - linux
   - amd

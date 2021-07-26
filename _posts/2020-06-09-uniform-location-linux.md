@@ -11,9 +11,9 @@ tags:
 
 Salah satu manfaat `porting` aplikasi dari Windows ke Linux adalah menemukan beberapa bug yang tidak disadari.
 
-Waktu itu ketika lagi porting [Buri Engine](https://github.com/ivan-achlaqullah/buri-engine/) ke Linux sempat kaget gara-gara lemot sekali rendernya. Biasanya pada `Debug` bisa 90 FPS ke atas di windows ini jadi cuma 15 FPS di linux. Seharusnya OpenGL setara atau lebih cepat di linux dari pada di windows, jadi pasti ada yang tidak efisien di dalam kodenya.
+Waktu itu ketika lagi porting Buri Engine ke Linux sempat kaget gara-gara lemot sekali rendernya. Biasanya pada `Debug` bisa 90 FPS ke atas di windows ini jadi cuma 15 FPS di linux. Seharusnya OpenGL setara atau lebih cepat di linux dari pada di windows, jadi pasti ada yang tidak efisien di dalam kodenya.
 
-Setelah [ditelusuri](https://github.com/ivan-achlaqullah/buri-engine/commit/8d83f57e21241a94b4499f3a33bc3d6d46ef6363) akhirnya ketemu juga penyebabnya. Tetapi sebelum membahas penyebabnya lebih baik amati dulu kode di bawah ini:
+Setelah ditelusuri akhirnya ketemu juga penyebabnya. Tetapi sebelum membahas penyebabnya lebih baik amati dulu kode di bawah ini:
 
 ```c++
 // Send Model Matrix Uniform

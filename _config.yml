@@ -66,6 +66,9 @@ author:
   bio    : "Programmer & 3D Artist."
   location: "Jakarta, Indonesia"
   links:
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://universeodon.com/@achlaqullah"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/ivanachlaqullah"
@@ -81,6 +84,9 @@ author:
 
 footer:
   links:
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://universeodon.com/@achlaqullah"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/ivanachlaqullah"

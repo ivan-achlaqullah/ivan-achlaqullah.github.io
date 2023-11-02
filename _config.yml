@@ -103,6 +103,9 @@ comments:
   disqus:
     shortname: "catatan-ivan-achlaqullah"
 
+analytics:
+  provider: "custom"
+
 defaults:
   # _posts
   - scope:
